@@ -1,0 +1,14 @@
+html {
+  background: #000;
+  overflow: hidden;
+}
+body {
+  margin: 0;
+}
+canvas {
+  vertical-align: top;
+  transform-origin: 0 0;
+  -ms-interpolation-mode: nearest-neighbor;
+      image-rendering: -moz-crisp-edges;
+      image-rendering: pixelated;
+}
